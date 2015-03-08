@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+    <id>direct_menu</id>
+    <name>Direct Menu</name>
+    <description>Provide easy access to all active apps on top.</description>
+    <version>0.1</version>
+    <licence>AGPL</licence>
+    <author>jus</author>
+    <require>7</require>
+</info>
+

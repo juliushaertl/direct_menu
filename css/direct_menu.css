@@ -1,0 +1,50 @@
+#navigation {
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:0;
+    left:80px;
+}
+
+#navigation {
+    width:auto;
+    padding:0;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    margin:0;
+    background-color:transparent;
+    display:block !important;
+}
+
+#navigation div ul li {
+    float:left;
+    width:50px;
+    padding:0px;
+    margin:0px;
+    height:44px;
+}
+
+#navigation div ul li a {
+    margin:0;
+    padding:12px;
+    padding-left:6px;
+    padding-right:6px;
+    width:50px;
+}
+
+#navigation div li .app-icon {
+    width:20px;  
+}
+
+.app-loading, .icon-loading-dark {
+    background-image:none;
+}
+
+#navigation div li span {
+    display:none;
+}
+
+.menutoggle {
+    display:none !important;
+}
