@@ -23,7 +23,6 @@
     padding:0px;
     margin:0px;
     height:44px;
-    background-color:rgb(29, 45, 68);
 }
 
 #navigation div ul li a {
@@ -55,7 +54,6 @@
 #navigation div a.active span {
    display:block;
    float:left;
-   background-color:rgb(29, 45, 68);
 }
 
 .menutoggle {
