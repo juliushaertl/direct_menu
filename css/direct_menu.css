@@ -1,61 +1,81 @@
-#navigation {
-    margin:0px;
-    padding:0px;
-    position:absolute;
-    top:0;
-    left:80px;
-    box-shadow:none;
-}
+@media only screen and (min-width: 980px) {
+	#navigation {
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		top:0;
+		left:80px;
+		box-shadow:none;
+		overflow: initial !important;
+	}
 
-#navigation {
-    width:auto;
-    padding:0;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    margin:0;
-    background-color:transparent;
-    display:block !important;
-}
+	#navigation {
+		width:auto;
+		padding:0;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		margin:0;
+		background-color:transparent;
+		display:block !important;
+	}
 
-#navigation div ul li {
-    float:left;
-    padding:0px;
-    margin:0px;
-    height:44px;
-}
+	#navigation div ul{
+		position:relative;
+	}
+	#navigation div ul:after {
+		content: ".";
+		clear: both;
+		display: block;
+		visibility: hidden;
+		height: 0px;
+	}
+	#navigation div ul li {
+		float:left;
+		padding:0px;
+		margin:0px;
+		height:44px;
+	}
 
-#navigation div ul li a {
-    margin:0;
-    padding:12px;
-    padding-left:6px;
-    padding-right:6px;
-    width:50px;
-    position:relative;
-}
+	#navigation div ul li a {
+		margin:0;
+		padding:12px;
+		padding-left:6px;
+		padding-right:6px;
+		width:50px;
+		height: auto;
+		position: initial;
+		text-align: center;
+	}
 
-#navigation div li .app-icon {
-    width:20px;
-    float:left;
-}
+	#navigation div li .app-icon {
+		width:20px;
+	}
 
-.app-loading, .icon-loading-dark {
-    background-image:none;
-}
+	.app-loading, .icon-loading-dark {
+		background-image:none;
+	}
 
-#navigation div li span {
-    display:none;
-}
-#navigation div li:hover a,
-#navigation div a.active {
-    width:120px !important;
-}
-#navigation div li:hover span,
-#navigation div a.active span {
-   display:block;
-   float:left;
-}
+	#navigation div li span {
+		position: absolute;
+		bottom: -20px;
+		background-color: #1d2d44;
+		display: none;
+	}
+		#navigation div a.active span {
+			right: -80px;
+			text-align: left;
+			top: 0px;
+			bottom: 0px;
+			line-height: 44px;
+			font-size: 18px;
+		}
+	#navigation div li:hover span,
+	#navigation div a.active span {
+	   display:block;
+	}
 
-.menutoggle {
-    display:none !important;
+	.menutoggle {
+		display:none !important;
+	}
 }
