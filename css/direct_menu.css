@@ -1,4 +1,4 @@
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 640px) {
 	#navigation {
 		margin:0px;
 		padding:0px;
@@ -95,7 +95,7 @@
 			top: 0px;
 			bottom: 0px;
 			line-height: 44px;
-			font-size: 18px;
+			font-size: 13px;
 			width: 120px;
 		}
 	#navigation div li:hover span,
