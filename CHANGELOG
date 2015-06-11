@@ -1,0 +1,8 @@
+0.3
+* Move appname to hover bubble
+* Fix issue when using custom themes
+* Add fallback for mobile devices
+
+0.2
+* Show app title when selected
+* Show app title when hovering icon
