@@ -12,3 +12,4 @@ always have the app menu of owncloud on top
 ## Contributors
 
 - TheAgentK
+- LukasReschke
