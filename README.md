@@ -1,7 +1,7 @@
 # direct_menu
 always have the app menu of owncloud on top
 
-![Screenshot of direct_menu app](2015-06-11-162604_554x168_scrot.png)
+![Screenshot of direct_menu app](https://bitgrid.net/~jus/direct_menu.png)
 
 
 ## Installation
