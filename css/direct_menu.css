@@ -131,7 +131,7 @@
         border-bottom-color: black;
         border-width: 9px;
     }
-    .menutoggle {
+    a.menutoggle {
         display: none!important
     }
     #apps-management {
