@@ -1,3 +1,10 @@
+0.5
+* Fix hidden menu toggle in owncloud version 8.2.1
+
+0.4
+* Specify OCS ID
+* Changed menu text to speech bubbles
+
 0.3
 * Move appname to hover bubble
 * Fix issue when using custom themes
