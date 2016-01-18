@@ -3,7 +3,7 @@
     <id>direct_menu</id>
     <name>Direct Menu</name>
     <description>Provide easy access to all active apps on top.</description>
-    <version>0.5</version>
+    <version>0.6</version>
     <licence>AGPL</licence>
     <author>jus</author>
     <require>7</require>

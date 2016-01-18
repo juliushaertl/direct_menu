@@ -1,3 +1,8 @@
+0.6
+* Fix icon sizing in Edge browser
+* Change the look of the mouseover bubbles in menu 
+* Move app label to the left of the icons
+
 0.5
 * Fix hidden menu toggle in owncloud version 8.2.1
 
