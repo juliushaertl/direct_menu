@@ -74,19 +74,22 @@
     #navigation div li:hover span {
         display: block
     }
-    #navigation #apps-management a span {
-        display: none
-    }
     #navigation div li:hover span {
         background-color: white;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        border-radius: 2px;
-        border: 1px solid #1d2d44;
-        color: #1d2d44;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin-top: 3px;
+        border: none;
+        color: #333;
         left: 50%;
         margin-left: -60px;
-        box-shadow: 4px 4px 5px #888;
+        padding: 5px;
+        -webkit-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
+        -moz-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
+        -ms-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
+        -o-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
+        filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
     }
     #navigation div a.active span {
         -webkit-border-radius: 0;
@@ -128,8 +131,19 @@
         margin-left: -8px;
     }
     #navigation div li:hover span:before {
-        border-bottom-color: black;
+        border-bottom-color: white;
         border-width: 9px;
+    }
+    #navigation div li:hover .active span {
+        margin: 0;
+        padding: 0;
+    }
+    #navigation div li:hover .active span:after,
+    #navigation div li:hover .active span:before {
+        border: none;
+        display: none;
+        margin: 0;
+        padding: 0;
     }
     a.menutoggle {
         display: none!important
