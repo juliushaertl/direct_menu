@@ -1,4 +1,4 @@
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 770px) {
     #navigation {
         margin: 0;
         padding: 0;
@@ -19,7 +19,8 @@
         display: block!important;
     }
     #navigation div ul {
-        position: relative
+        position: relative;
+        margin-left: 170px;
     }
     #navigation div ul:after {
         content: ".";
@@ -99,8 +100,7 @@
         color: white;
         background-color: transparent;
         margin-left: 0;
-        left: inherit;
-        right: -120px;
+        left: -170px;
         text-align: left;
         top: 0;
         bottom: 0;
