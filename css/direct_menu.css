@@ -17,6 +17,7 @@
         margin: 0;
         background-color: transparent;
         display: block!important;
+        position: fixed;
     }
     #navigation div ul {
         position: relative;
