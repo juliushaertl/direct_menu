@@ -6,7 +6,7 @@
         top: 0;
         left: 80px;
         box-shadow: none;
-        overflow: visible!important;
+        overflow: visible !important;
     }
     #navigation {
         width: auto;
@@ -18,6 +18,9 @@
         background-color: transparent;
         display: block!important;
         position: fixed;
+    }
+    #navigation #apps {
+        overflow:hidden !important;
     }
     #navigation div ul {
         position: relative;
