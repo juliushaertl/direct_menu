@@ -3,10 +3,11 @@
     <id>direct_menu</id>
     <name>Direct Menu</name>
     <description>Provide easy access to all active apps on top.</description>
-    <version>0.6</version>
+    <version>0.7</version>
     <licence>AGPL</licence>
     <author>jus</author>
-    <require>7</require>
+    <requiremin>7</requiremin>
+    <repository type="git">https://github.com/juliushaertl/direct_menu.git</repository>
     <ocsid>169148</ocsid>
 </info>
 
