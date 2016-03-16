@@ -1,3 +1,6 @@
+0.7.1
+* Fix title overlay style in owncloud 9
+
 0.7.0
 * Fix css for OwnCloud 9.0
 * Move to semantic versioning
