@@ -13,14 +13,13 @@
         padding: 0;
         margin: 0;
         padding: 0;
-        overflow: hidden;
         margin: 0;
         background-color: transparent;
         display: block!important;
         position: fixed;
     }
     #navigation #apps {
-        overflow:hidden !important;
+        overflow: visible;
     }
     #navigation div ul {
         position: relative;
@@ -64,7 +63,6 @@
         overflow: visible;
         left: 0;
         top: 45px;
-        z-index: 999;
         background-color: #FFF;
         border: 1px solid #000;
         color: #000;
@@ -112,6 +110,7 @@
         font-size: 13px;
         width: 120px;
         box-shadow: none;
+        z-index: 999;
     }
     #navigation div li:hover span,
     #navigation div a.active span {
