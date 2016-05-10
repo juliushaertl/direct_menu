@@ -53,9 +53,17 @@
         height: 20px;
         width: 20px;
     }
-    .app-loading,
-    .icon-loading-dark {
-        background-image: none
+    .app-loading {
+        background: url('../../../core/img/loading-dark.gif') no-repeat center center;
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+    }
+    #navigation .app-loading img {
+        display: none;
+    }
+    #navigation #apps .app-loading .icon-loading-dark {
+        display: none !important;
     }
     #navigation div li span {
         display: none;
