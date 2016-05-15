@@ -49,7 +49,11 @@
         text-align: center;
         color: #1d2d44!important;
     }
-    #navigation .app-loading img {
+    #navigation .app-icon {
+        width: 20px;
+        height: 20px;
+    }
+    #navigation .app-loading .app-icon {
         display: none;
     }
     #navigation .app-loading .icon-loading-dark {
