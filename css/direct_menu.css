@@ -49,21 +49,26 @@
         text-align: center;
         color: #1d2d44!important;
     }
-    #navigation div li .app-icon {
-        height: 20px;
-        width: 20px;
-    }
-    .app-loading {
-        background: url('../../../core/img/loading-dark.gif') no-repeat center center;
+    #navigation .app-icon {
         width: 20px;
         height: 20px;
-        background-size: 20px;
     }
-    #navigation .app-loading img {
+    #navigation .app-loading .app-icon {
         display: none;
     }
-    #navigation #apps .app-loading .icon-loading-dark {
-        display: none !important;
+    #navigation .app-loading .icon-loading-dark {
+        background-size: 20px;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        display: inline-block !important;
+    }
+    #navigation #apps .app-loading .icon-loading-dark::after {
+        width: 18px;
+        height: 18px;
+        margin: -10px 0 0 -10px;
     }
     #navigation div li span {
         display: none;
