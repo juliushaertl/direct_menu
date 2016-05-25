@@ -84,9 +84,6 @@
     #navigation div li:hover a {
         position: relative
     }
-    #navigation div li:hover a.active {
-        position: static
-    }
     #navigation div li:hover span {
         display: block
     }
@@ -107,29 +104,8 @@
         -o-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
         filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
     }
-    #navigation div a.active span {
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        border-radius: 0;
-        border: 0 solid #1d2d44;
-        color: white;
-        background-color: transparent;
-        margin-left: 0;
-        left: -170px;
-        text-align: left;
-        top: 0;
-        bottom: 0;
-        line-height: 44px;
-        font-size: 16px;
-        font-weight: 300;
-        opacity: .75;
-        width: 120px;
-        box-shadow: none;
-        z-index: 999;
-    }
-    #navigation div li:hover span,
-    #navigation div a.active span {
-        display: block
+    #navigation div li:hover span {
+        display: block;
     }
     #navigation div li:hover span:after,
     #navigation div li:hover span:before {
@@ -152,19 +128,8 @@
         border-bottom-color: white;
         border-width: 9px;
     }
-    #navigation div li:hover .active span {
-        margin: 0;
-        padding: 0;
-    }
-    #navigation div li:hover .active span:after,
-    #navigation div li:hover .active span:before {
-        border: none;
-        display: none;
-        margin: 0;
-        padding: 0;
-    }
-    a.menutoggle {
-        display: none!important
+    a.menutoggle .icon-caret{
+        display: none !important;
     }
     #apps-management {
         -moz-opacity: 1;
