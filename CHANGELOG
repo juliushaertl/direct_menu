@@ -1,3 +1,10 @@
+0.8.0
+* Use default header-appname
+* Change current app title style to match the default style
+* App icon width and height re-added
+* Add compatibility to owncloud 9.1 loading animations (and do not break backward compatiblity to 9.0!)
+* Clicking a navigation item will show up the loading icon (works even in user menu)
+
 0.7.1
 * Fix title overlay style in owncloud 9
 
