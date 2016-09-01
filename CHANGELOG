@@ -1,3 +1,9 @@
+0.9.1
+* Improve support for Nextcloud theming
+
+0.9.0
+* Support for Nextcloud
+
 0.8.0
 * Use default header-appname
 * Change current app title style to match the default style
