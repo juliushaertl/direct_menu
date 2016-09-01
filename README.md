@@ -15,4 +15,5 @@ always have the app menu of owncloud on top
 - LukasReschke
 - icewind1991
 - JonesfromHan
-- SonRiab 
+- SonRiab
+- eppfel
