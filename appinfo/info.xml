@@ -1,15 +1,19 @@
 <?xml version="1.0"?>
-<info>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>direct_menu</id>
     <name>Direct Menu</name>
     <description>Provide easy access to all active apps on top.</description>
-    <version>0.9.0</version>
+    <category>customization</category>
+    <version>0.9.1</version>
     <licence>AGPL</licence>
     <author>Julius Härtl</author>
     <dependencies>
         <owncloud min-version="8.0" max-version="9.2" />
     </dependencies>
     <repository type="git">https://github.com/juliushaertl/direct_menu.git</repository>
+    <bugs>https://github.com/juliushaertl/direct_menu/issues</bugs>
+    <screenshot>https://bitgrid.net/~jus/direct_menu_nc.png</screenshot>
     <ocsid>169148</ocsid>
 </info>
 
