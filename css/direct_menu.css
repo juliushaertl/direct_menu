@@ -53,7 +53,8 @@
         width: 20px;
         height: 20px;
     }
-    #navigation .app-loading .app-icon {
+    #navigation .app-loading .app-icon,
+	#navigation .app-loading svg {
         display: none;
     }
     #navigation .app-loading .icon-loading-dark {
