@@ -1,4 +1,4 @@
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: <?php p($_['width']); ?>px) {
 	#navigation {
 		margin: 0;
 		padding: 0;
@@ -160,8 +160,10 @@
 	#navigation svg image {
 		width: 100%;
 		height: 100%;
+<?php if($_['inverted']===false) { ?>
 		-webkit-filter: none;
 		filter: none;
+<?php } ?>
 	}
 
 	#navigation a svg,

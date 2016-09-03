@@ -3,7 +3,6 @@
  * @copyright Copyright (c) 2016 Julius Härtl <jus@bitgrid.net>
  *
  * @author Julius Härtl <jus@bitgrid.net>
- * @author Felix Epp <work@felixepp.de>
  *
  * @license GNU AGPL version 3 or any later version
  *
@@ -21,11 +20,11 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-$linkToCSS = \OC::$server->getURLGenerator()->linkToRoute('direct_menu.App.stylesheet');
-\OCP\Util::addHeader(
-	'link',
+
+return ['routes' => [
 	[
-		'rel' => 'stylesheet',
-		'href' => $linkToCSS,
-	]
-);
+		'name' => 'App#stylesheet',
+		'url' => '/styles',
+		'verb' => 'GET',
+	]]
+];

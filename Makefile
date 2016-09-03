@@ -11,7 +11,8 @@ appstore:
 	mkdir -p $(appstore_build_directory) $(appstore_artifact_directory)
 	cp --parents -r \
 	"appinfo" \
-	"css" \
+	"lib" \
+	"templates" \
 	"CHANGELOG" \
 	"LICENSE" \
 	"README.md" \
