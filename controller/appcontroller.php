@@ -22,7 +22,6 @@
  */
 
 namespace OCA\Direct_menu\Controller;
-use OCP\AppFramework\Http\DataDisplayResponse;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Http\DataDownloadResponse;
 use OCP\AppFramework\Utility\ITimeFactory;
@@ -43,7 +42,7 @@ class AppController extends \OCP\AppFramework\Controller {
 	 */
 	public function stylesheet() {
 		$inverted = false;
-		if(\OCP\App::isEnabled('theming')) {
+		if(\OCP\App::isEnabled('theming') && class_exists('\OCA\Theming\Util')) {
 			$color = \OC::$server->getThemingDefaults()->getMailHeaderColor();
 			$util = new \OCA\Theming\Util();
 			$inverted = $util->invertTextColor($color);
