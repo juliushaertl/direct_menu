@@ -5,7 +5,7 @@
     <name>Direct Menu</name>
     <description>Provide easy access to all apps in the header.</description>
     <category>customization</category>
-    <version>0.9.1</version>
+    <version>0.9.2</version>
     <licence>AGPL</licence>
     <author>Julius Härtl</author>
     <dependencies>
