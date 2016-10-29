@@ -1,7 +1,8 @@
 # direct_menu
-always have the app menu of owncloud on top
 
-![Screenshot of direct_menu app](https://bitgrid.net/~jus/direct_menu.png)
+Nextcloud/OwnCloud app to provide easy access to all apps in the header 
+
+![Screenshot of direct_menu app](https://bitgrid.net/~jus/direct_menu_nc.png)
 
 
 ## Installation
