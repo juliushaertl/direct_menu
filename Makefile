@@ -13,7 +13,7 @@ appstore:
 	"appinfo" \
 	"controller" \
 	"templates" \
-	"CHANGELOG" \
+	"CHANGELOG.md" \
 	"LICENSE" \
 	"README.md" \
 	$(appstore_build_directory)
