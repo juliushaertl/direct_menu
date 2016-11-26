@@ -44,7 +44,7 @@ class AppController extends \OCP\AppFramework\Controller {
 		$inverted = false;
 		if(\OCP\App::isEnabled('theming') && class_exists('\OCA\Theming\Util')) {
 			$color = \OC::$server->getThemingDefaults()->getMailHeaderColor();
-			$util = new \OCA\Theming\Util();
+			$util = \OC::$server->query(\OCA\Theming\Util::class);
 			$inverted = $util->invertTextColor($color);
 		}
 
