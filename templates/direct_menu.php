@@ -91,7 +91,6 @@
 		background-color: #FFF;
 		border: 1px solid #000;
 		color: #000;
-		min-width: 120px;
 	}
 
 	#navigation div li:hover a {
@@ -111,7 +110,7 @@
 		border: none;
 		color: #333;
 		left: 50%;
-		margin-left: -60px;
+		transform: translateX(-50%);
 		padding: 5px;
 		-webkit-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
 		-moz-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
