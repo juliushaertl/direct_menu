@@ -168,8 +168,8 @@
 
 	#navigation a svg,
 	#navigation a span {
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-		opacity: .9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		opacity: .5;
 	}
 
 	#navigation a:hover svg,
