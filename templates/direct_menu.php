@@ -107,7 +107,9 @@
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
-		margin-top: 3px;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		margin-top: 0;
 		border: none;
 		color: #333;
 		left: 50%;
