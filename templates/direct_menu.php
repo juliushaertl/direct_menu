@@ -102,7 +102,9 @@
 	}
 
 	#navigation div li:hover span {
-		background-color: white;
+		width: auto;
+		padding: 8px 12px;
+		background-color: #fff;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
@@ -113,7 +115,6 @@
 		color: #333;
 		left: 50%;
 		transform: translateX(-50%);
-		padding: 5px;
 		-webkit-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
 		-moz-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
 		-ms-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
