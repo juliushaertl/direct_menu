@@ -21,7 +21,14 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-$linkToCSS = \OC::$server->getURLGenerator()->linkToRoute('direct_menu.App.stylesheet');
+
+$linkToCSS = \OC::$server->getURLGenerator()->linkToRoute(
+	'direct_menu.App.stylesheet',
+	[
+		'v' => \OC::$server->getConfig()->getAppValue('theming', 'cachebuster', '0'),
+	]
+);
+
 \OCP\Util::addHeader(
 	'link',
 	[
