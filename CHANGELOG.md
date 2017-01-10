@@ -1,3 +1,12 @@
+## 0.10.0
+### Changed
+- adjust contrast between active and inactive apps
+- adjust max-version to Nextcloud 12
+- adjust whitespace and top border radius to match other dropdowns
+- make popover width dynamic
+- adjust popover padding and width to fit name of app
+- add cachebuster for Nextcloud theming app
+
 ## 0.9.3
 ### Changed
 - Fix loading in Nextcloud 11
