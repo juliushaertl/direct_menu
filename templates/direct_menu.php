@@ -26,8 +26,12 @@
 
 	#navigation div ul {
 		position: relative;
-		margin-left: 170px;
+		margin-left: 10px;
 	}
+
+       div#navigation.menu {
+                margin-left: 170px;
+       }
 
 	#navigation div ul:after {
 		content: ".";
