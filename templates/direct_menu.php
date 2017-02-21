@@ -26,7 +26,7 @@
 
 	#navigation div ul {
 		position: relative;
-		margin-left: 10px;
+		padding-right:10px;
 	}
 
        div#navigation.menu {
