@@ -80,6 +80,10 @@
 		width: 18px;
 		height: 18px;
 		margin: -10px 0 0 -10px;
+<?php if($_['inverted']===true) { ?>
+	border: 2px solid rgba(150, 150, 150, 0.5) !important;
+	border-top-color: rgba(150, 150, 150, 1) !important;
+<?php } ?>
 	}
 
 	#navigation div li span {
