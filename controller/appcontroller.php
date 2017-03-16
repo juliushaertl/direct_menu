@@ -52,8 +52,9 @@ class AppController extends \OCP\AppFramework\Controller {
 		$navigationCount = count($navigation);
 
 		// 250px for icon/appname
-		// 120px for user menu + 1 icon spacing
-		$width = $navigationCount*50+250+170;
+		// 170px for user menu + 1 icon spacing
+		// 120px open search box
+		$width = $navigationCount*50+250+170+120;
 
 		$params = [
 			'width' => $width,
