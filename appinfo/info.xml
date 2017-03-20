@@ -10,11 +10,10 @@
     <author>Julius Härtl</author>
     <dependencies>
         <owncloud min-version="9.0" max-version="9.2" />
-        <nextcloud min-version="9" max-version="12" />
+        <nextcloud min-version="9" max-version="11" />
     </dependencies>
     <repository type="git">https://github.com/juliushaertl/direct_menu.git</repository>
     <bugs>https://github.com/juliushaertl/direct_menu/issues</bugs>
     <screenshot>https://bitgrid.net/~jus/direct_menu_nc.png</screenshot>
     <ocsid>169148</ocsid>
 </info>
-
