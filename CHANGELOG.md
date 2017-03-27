@@ -1,3 +1,9 @@
+## 0.10.1
+### Changed
+- Drop support for Nextcloud 12 since the new menu is merged
+- Use dark loading icon on bright colors
+- Fix overlapping search box
+
 ## 0.10.0
 ### Changed
 - adjust contrast between active and inactive apps
