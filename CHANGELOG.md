@@ -1,3 +1,7 @@
+## 0.10.2
+### Changed
+- Remove signatures file from release to avoid errors with Nextcloud 12
+
 ## 0.10.1
 ### Changed
 - Drop support for Nextcloud 12 since the new menu is merged
