@@ -7,14 +7,7 @@
 		left: 80px;
 		box-shadow: none;
 		overflow: visible !important;
-	}
-
-	#navigation {
 		width: auto;
-		padding: 0;
-		margin: 0;
-		padding: 0;
-		margin: 0;
 		background-color: transparent;
 		display: block !important;
 		position: fixed;
